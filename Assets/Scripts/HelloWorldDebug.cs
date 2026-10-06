@@ -1,11 +1,11 @@
 using UnityEngine;
+// This script is for a debug log statement.
 
 public class HelloWorldDebug : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Debug.Log("Hello World ! :)");
     }
-
+    
 }
