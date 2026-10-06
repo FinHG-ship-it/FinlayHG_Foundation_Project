@@ -850,8 +850,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: FinlayHG_Foundation_Project
-  metroPackageVersion: 
+  metroPackageName: FinlayHGFoundationProject
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -859,7 +859,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: FinlayHG_Foundation_Project
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: FinlayHG_Foundation_Project
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -926,7 +926,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 93ee3f90-f4c2-4217-b2e2-f63e2c961468
   framebufferDepthMemorylessMode: 0

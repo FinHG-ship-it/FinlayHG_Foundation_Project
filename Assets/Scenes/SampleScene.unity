@@ -396,6 +396,10 @@ GameObject:
   - component: {fileID: 1212571174}
   - component: {fileID: 1212571173}
   - component: {fileID: 1212571172}
+  - component: {fileID: 1212571177}
+  - component: {fileID: 1212571178}
+  - component: {fileID: 1212571179}
+  - component: {fileID: 1212571180}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -523,6 +527,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1212571177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212571171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115cbc2a24c16b3479ed5671a394bd53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HelloWorldDebug
+--- !u!114 &1212571178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212571171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d00455fd21dbf849ae3b822a37593ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+--- !u!114 &1212571179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212571171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7895b2bbf71f9c4887c97e973498118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PushSpaceToDestroy
+--- !u!114 &1212571180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212571171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115cbc2a24c16b3479ed5671a394bd53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HelloWorldDebug
 --- !u!1001 &5666129762681410092
 PrefabInstance:
   m_ObjectHideFlags: 0
