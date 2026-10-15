@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class TransformTranslate : MonoBehaviour
 {
-       void Start()
-    {
-        
-    }
+    public float movementSpeed;
+    public float rotationSpeed;
 
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        /*if (Input.GetKeyDown(KeyCode.S))
         {
             transform.Translate(0,0,1);
             Debug.Log("S Key Pressed");
@@ -44,6 +42,37 @@ public class TransformTranslate : MonoBehaviour
         {
             transform.Translate(0,1,0);
             Debug.Log("X Key Pressed");
+        }*/
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
+            Debug.Log("S Key Pressed");
         }
+
+         if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(-transform.forward * movementSpeed * Time.deltaTime);
+            Debug.Log("W Key Pressed");
+        }
+
+
+
+
+
+          if (Input.GetKey(KeyCode.Q))
+        {
+            transform.Rotate(transform.up * rotationSpeed * Time.deltaTime);
+            Debug.Log("Q Key Pressed");
+        }
+
+         if (Input.GetKey(KeyCode.R))
+        {
+            transform.Rotate(-transform.up * rotationSpeed * Time.deltaTime);
+            Debug.Log("R Key Pressed");
+        }
+
+
     }
+
 }
