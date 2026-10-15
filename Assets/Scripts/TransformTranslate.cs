@@ -44,32 +44,32 @@ public class TransformTranslate : MonoBehaviour
             Debug.Log("X Key Pressed");
         }*/
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
-            Debug.Log("S Key Pressed");
-        }
-
-         if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(-transform.forward * movementSpeed * Time.deltaTime);
             Debug.Log("W Key Pressed");
         }
 
-
-
-
-
-          if (Input.GetKey(KeyCode.Q))
+         if (Input.GetKey(KeyCode.S))
         {
-            transform.Rotate(transform.up * rotationSpeed * Time.deltaTime);
-            Debug.Log("Q Key Pressed");
+            transform.Translate(-transform.forward * movementSpeed * Time.deltaTime);
+            Debug.Log("S Key Pressed");
         }
 
-         if (Input.GetKey(KeyCode.R))
+
+
+
+
+          if (Input.GetKey(KeyCode.R))
+        {
+            transform.Rotate(transform.up * rotationSpeed * Time.deltaTime);
+            Debug.Log("R Key Pressed");
+        }
+
+         if (Input.GetKey(KeyCode.Q))
         {
             transform.Rotate(-transform.up * rotationSpeed * Time.deltaTime);
-            Debug.Log("R Key Pressed");
+            Debug.Log("Q Key Pressed");
         }
 
 
