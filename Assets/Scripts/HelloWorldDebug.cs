@@ -5,7 +5,18 @@ public class HelloWorldDebug : MonoBehaviour
 {
     void Start()
     {
+        //Debug.Log("Hello World ! :)");
+    }
+
+    void OnEnable()
+    {
         Debug.Log("Hello World ! :)");
+
+    }
+
+    void OnDisable()
+    {
+        Debug.Log("Goodbye World :( ");
     }
     
 }
