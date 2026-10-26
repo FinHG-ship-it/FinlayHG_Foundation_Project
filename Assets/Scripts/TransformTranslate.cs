@@ -56,6 +56,17 @@ public class TransformTranslate : MonoBehaviour
             Debug.Log("S Key Pressed");
         }
 
+if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(-transform.right * movementSpeed * Time.deltaTime);
+            Debug.Log("A Key Pressed");
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(transform.right * movementSpeed * Time.deltaTime);
+            Debug.Log("D Key Pressed");
+        }
 
 
 
