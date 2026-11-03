@@ -9,6 +9,8 @@ public class FirstPersonCamera : MonoBehaviour
     public float mouseSensitivity = 2f;
     float cameraverticalRotation = 0f;
 
+    public float mouseMultiplier = 1f;
+
 
     // Update is called once per frame
     void Update()
@@ -33,4 +35,13 @@ public class FirstPersonCamera : MonoBehaviour
 
 
     }
+
+    public void UpdateMouseSensitivity(float newSensitivity)
+    {
+        mouseSensitivity = newSensitivity * mouseMultiplier;
+        Debug.Log("Mouse Sensitivity Updated: " + mouseSensitivity);
+    }
+
 }
+
+
