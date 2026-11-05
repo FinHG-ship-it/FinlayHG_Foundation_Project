@@ -4,7 +4,7 @@ public class ClickToDestroy : MonoBehaviour
 {
    public GameObject clickObjToDestroy;
 
-   void OnMouseDown()
+   void Update()
     {
         Debug.Log("Object was clicked");
         //Debug.LogError("Object was clicked");    // this log error will stop play mode in the editor
