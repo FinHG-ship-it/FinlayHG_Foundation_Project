@@ -3,8 +3,8 @@ using UnityEngine;
 public class Ruby_Gone : MonoBehaviour
 {    
 
-public GameObject Ruby1;
-public GameObject Ruby2;
+public GameObject Base;
+public GameObject Crystals;
 public bool isClicked = false;
 public bool obtained = false;
 
@@ -13,13 +13,13 @@ public bool obtained = false;
     {
         if (isClicked == true)
         {
-        Ruby1.SetActive(false);
-        Ruby2.SetActive(false); // this disables the ruby after the animation finishes.
+        Base.SetActive(false);
+        Crystals.SetActive(false); //
         }
         if(obtained == true)
         {
-        Ruby1.SetActive(false);
-        Ruby2.SetActive(false);
+        Base.SetActive(false);
+        Crystals.SetActive(false);
         }
     }
 
